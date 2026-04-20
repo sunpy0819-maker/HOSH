@@ -1,14 +1,7 @@
-# 复杂网络关键节点识别代码README
-
-**Exported:** 4/20/2026 22:12:34  
-**Link:** [https://gemini.google.com/app/bfd397469c8e54da](https://gemini.google.com/app/bfd397469c8e54da)
-
-## Response:
-这是为您整理的完整版 `README.md`，采用了您要求的文件夹命名结构，并参考了您提供的 DGRN-SE 项目风格，对项目中的所有脚本和数据文件进行了详细的表格化说明。
-
-* * *
-
 HOSH: 基于极大团的高阶结构洞关键节点识别方法 (Higher-Order Structural Holes)
+<p align="center">
+  <img src="graphical abstract.jpg" width="800" alt="HOSH 算法框架图">
+</p>
 =========================================================
 
 ### 框架概览 (Framework Overview)

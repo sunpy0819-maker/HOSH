@@ -1,7 +1,5 @@
 HOSH: 基于极大团的高阶结构洞关键节点识别方法 (Higher-Order Structural Holes)
-<p align="center">
-  <img src="graphical abstract.jpg" width="800" alt="HOSH 算法框架图">
-</p>
+![HOSH算法框架图](graphical abstract.jpg)
 =========================================================
 
 ### 框架概览 (Framework Overview)

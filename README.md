@@ -49,7 +49,7 @@ HOSH_Project/
 │   └── exp_synthetic_networks.py   # Exp 10: Linear scalability validation on synthetic networks
 │
 ├── tools/                          # Auxiliary statistics and verification tools
-│   ├── compute_network_statistics.py # Calculate basic network topological properties (LaTeX)
+│   ├── compute_network_statistics.py # Calculate basic network topological properties
 │   └── verify_networks.py          # Dataset integrity and LCC verification
 │
 ├── images/                         # Project images and diagrams

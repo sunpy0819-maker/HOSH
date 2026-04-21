@@ -5,7 +5,7 @@
 
 ### Framework Overview
 
-> **Figure 1: Schematic overview of the HOSH framework.** **(a) Core Unit**: Shifting the fundamental unit of network analysis from single edges to maximal cliques. **(b) Algorithmic Pipeline**: After maximal clique decomposition, the basic investment is adjusted by the relative autonomy coefficient to compute effective dependence, and the inter-clique redundancy caused by topological overlap is quantified. **(c)-(e) Performance Advantages**: Outstanding performance in spatial Dispersion, ranking Resolution, and computational Scalability.
+> **Figure 1: Schematic overview of the HOSH framework.** **(a) Core Unit**: Shifting the fundamental unit of network analysis from binary edges to maximal cliques. **(b) Algorithmic Pipeline**: After maximal clique decomposition, the basic investment is adjusted by the relative autonomy coefficient to compute effective dependence, and the inter-clique redundancy caused by topological overlap is quantified. **(c)-(e) Performance Advantages**: Outstanding performance in spatial Dispersion, ranking Resolution, and computational Scalability.
 
 * * *
 

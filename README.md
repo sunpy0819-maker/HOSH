@@ -31,36 +31,36 @@ Experimental results demonstrate that HOSH not only accurately identifies nodes 
 ```text
 HOSH_Project/
 │
-├── core/                           # Core algorithms and data processing modules
-│   ├── hosh_methods.py             # Implementation of HOSH and baseline methods
-│   ├── network_loader.py           # Automated data downloader and LCC preprocessing tool
-│   └── precompute_rankings.py      # Precomputation and caching engine for node rankings
+├── core/                             # Core algorithms and data processing modules
+│   ├── hosh_methods.py               # Implementation of HOSH and baseline methods
+│   ├── network_loader.py             # Automated data downloader and LCC preprocessing tool
+│   └── precompute_rankings.py        # Precomputation and caching engine for node rankings
 │
-├── experiments/                    # Multi-dimensional performance evaluation scripts
-│   ├── exp_sir_influence.py        # Exp 1: Steady-state SIR spreading scale analysis
-│   ├── exp_temporal_sir.py         # Exp 2: Temporal SIR spreading evolution curves
-│   ├── exp_improvement_rate.py     # Exp 3: Improvement rate sensitivity analysis (Bubble heatmap)
-│   ├── exp_monotonicity.py         # Exp 4: Ranking monotonicity M(R) statistical analysis
-│   ├── exp_ranking_frequency.py    # Exp 5: Ranking degeneracy frequency distribution visualization
-│   ├── exp_spreader_separation.py  # Exp 6: Spreader spatial dispersion analysis (Radar chart)
+├── experiments/                      # Multi-dimensional performance evaluation scripts
+│   ├── exp_sir_influence.py          # Exp 1: Steady-state SIR spreading scale analysis
+│   ├── exp_temporal_sir.py           # Exp 2: Temporal SIR spreading evolution curves
+│   ├── exp_improvement_rate.py       # Exp 3: Improvement rate sensitivity analysis (Bubble heatmap)
+│   ├── exp_monotonicity.py           # Exp 4: Ranking monotonicity M(R) statistical analysis
+│   ├── exp_ranking_frequency.py      # Exp 5: Ranking degeneracy frequency distribution visualization
+│   ├── exp_spreader_separation.py    # Exp 6: Spreader spatial dispersion analysis (Radar chart)
 │   ├── exp_topology_visualization.py # Exp 7: Top-50 nodes network topology visualization
 │   ├── exp_parameter_sensitivity.py  # Exp 8: HOSH parameter ξ robustness validation (Kendall's Tau)
-│   ├── exp_running_time.py         # Exp 9: Running time comparison on real-world networks
-│   └── exp_synthetic_networks.py   # Exp 10: Linear scalability validation on synthetic networks
+│   ├── exp_running_time.py           # Exp 9: Running time comparison on real-world networks
+│   └── exp_synthetic_networks.py     # Exp 10: Linear scalability validation on synthetic networks
 │
-├── tools/                          # Auxiliary statistics and verification tools
+├── tools/                            # Auxiliary statistics and verification tools
 │   ├── compute_network_statistics.py # Calculate basic network topological properties
-│   └── verify_networks.py          # Dataset integrity and LCC verification
+│   └── verify_networks.py            # Dataset integrity and LCC verification
 │
-├── images/                         # Project images and diagrams
-│   └── graphicalabstract.png       # Algorithmic framework overview diagram
+├── images/                           # Project images and diagrams
+│   └── graphicalabstract.png         # Algorithmic framework overview diagram
 │
-├── networks_data/                  # Directory for raw network datasets (Auto-generated)
-├── results/                        # Directory for experimental results output
-│   ├── node_rankings/              # Cached files for precomputed node scores (.pkl)
-│   └── exp_*/                      # Output subdirectories for each experimental module
+├── networks_data/                    # Directory for raw network datasets (Auto-generated)
+├── results/                          # Directory for experimental results output
+│   ├── node_rankings/                # Cached files for precomputed node scores (.pkl)
+│   └── exp_*/                        # Output subdirectories for each experimental module
 │
-└── README.md                       # Project documentation
+└── README.md                         # Project documentation
 ````
 
 * * *

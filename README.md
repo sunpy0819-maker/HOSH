@@ -101,6 +101,13 @@ HOSH_Project/
 | `exp_running_time.py` | Measures the actual execution time of algorithms across various real-world networks. |
 | `exp_synthetic_networks.py` | Validates the computational time growth trend relative to network size on synthetic networks (BA, WS, ER, 1k-20k nodes). |
 
+**Data Files (Output):**
+
+| File / Format | Description |
+| --- | --- |
+| `results/exp_*/*.png` | High-resolution figures (600 DPI), including spreading curves, bubble heatmaps, radar charts, and topological subplots. |
+| `results/exp_*/*.xlsx` | Quantitative experimental data corresponding to the generated figures, organized by experiment type. |
+| `results/exp_*/*.txt` or `.csv`| Detailed numerical records for scalability tests, empirical running times, and backup statistical data for analyses. |
 * * *
 
 5\. Execution Pipeline

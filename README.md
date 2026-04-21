@@ -97,6 +97,8 @@ HOSH_Project/
 | `exp_ranking_frequency.py` | Calculates the frequency distribution of nodes per ranking position to visually expose the ranking degeneracy problem. |
 | `exp_spreader_separation.py` | Computes the average shortest path length  $L_{s}$  of seed nodes, reflecting the spatial coverage capability and dispersion of spreaders. |
 | `exp_topology_visualization.py` | Highlights the Top-50 nodes in the network, visualizing their topological distributions across independent subplots. |
+| `exp_parameter_sensitivity.py` | Uses Kendall's $\tau$ to evaluate the sensitivity and robustness of the HOSH algorithm to the parameter $\xi$. |
+| `exp_running_time.py` | Measures the actual execution time of algorithms across various real-world networks. |
 | `exp_synthetic_networks.py` | Validates the computational time growth trend relative to network size on synthetic networks (BA, WS, ER, 1k-20k nodes). |
 
 * * *

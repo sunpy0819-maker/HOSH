@@ -80,9 +80,9 @@ HOSH_Project/
 
 **Data Files:**
 
-| File | Description |
-| --- | --- |
-| `[network]_rankings.pkl` | Located in `results/node_rankings/`, stores dictionary objects of precomputed node scores for quick loading by downstream scripts. |
+| File                                   | Description |
+|----------------------------------------| --- |
+| `results/node_rankings/*.pkl` | stores dictionary objects of precomputed node scores for quick loading by downstream scripts. |
 
 ### 4.2 Experimental Evaluation and Visualization (`experiments/`)
 
@@ -103,7 +103,7 @@ HOSH_Project/
 
 **Data Files (Output):**
 
-| File / Format | Description |
+| File | Description |
 | --- | --- |
 | `results/exp_*/*.png` | High-resolution figures (600 DPI), including spreading curves, bubble heatmaps, radar charts, and topological subplots. |
 | `results/exp_*/*.xlsx` | Quantitative experimental data corresponding to the generated figures, organized by experiment type. |

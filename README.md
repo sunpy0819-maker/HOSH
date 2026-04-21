@@ -136,7 +136,7 @@ Step 5: python -m experiments.[other_scripts]    → Generate radar charts, topo
 
 *   **Score Caching Mechanism**: Scripts under `experiments/` will prioritize loading the `.pkl` files in `results/node_rankings/`. If you modify the core algorithmic logic, you must rerun `precompute_rankings.py` with the `--force` flag.
 *   **Local Datasets**: Datasets marked as `local` in `network_loader.py` (e.g., `infect`, `chesapeake`) must be manually placed in the `networks_data/` directory.
-*   **Output Standards**: All generated figures default to a 600 DPI resolution and use the Times New Roman font, conforming strictly to standard academic publishing requirements.
+*   **Output Standards**: All generated figures default to a 600 DPI resolution and use the Times New Roman font.
 
 * * *
 

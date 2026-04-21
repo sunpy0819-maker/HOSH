@@ -5,7 +5,7 @@ HOSH: 基于极大团的高阶结构洞关键节点识别方法 (Higher-Order St
 
 ### 框架概览 (Framework Overview)
 
-> **图 1：HOSH 摘要示意图。**  **(a) 核心单元**：将极大团作为网络分析的基础单元。 **(b) 算法流程**：极大团分解，通过相对自主性系数修正基础投入得到有效依赖，并量化由拓扑重叠产生的团间冗余。  **(c)-(e) 性能优势**：在空间分散度 (Dispersion)、排序分辨率 (Resolution) 和计算扩展性 (Scalability) 上表现卓越。
+> **图 1：HOSH 摘要示意图。**  **(a) 核心单元**：将极大团作为网络分析的基础单元。 **(b) 算法流程**：极大团分解后，通过相对自主性系数修正基础投入得到有效依赖，并量化由拓扑重叠产生的团间冗余。  **(c)-(e) 性能优势**：在空间分散度 (Dispersion)、排序分辨率 (Resolution) 和计算扩展性 (Scalability) 上表现卓越。
 
 * * *
 
@@ -95,7 +95,7 @@ HOSH_Project/
 
 | 文件 (File) | 描述 (Description) |
 | --- | --- |
-| `exp_sir_influence.py` | 评估不同种子比例  $p$  (2.5%-25%) 下的稳态感染规模  $F\left(t_{c}\right)$ 。 |
+| `exp_sir_influence.py` | 评估不同种子比例  $p$  (2.5%-25%) 下的稳态感染规模  $F(t_c)$ 。 |
 | `exp_temporal_sir.py` | 追踪选取 Top-10 节点作为初始种子时的时序传播演化轨迹。 |
 | `exp_improvement_rate.py` | 在不同感染概率  $\beta /\beta _{th}$  下分析 HOSH 相对基准算法的改进率（气泡热力图）。 |
 | `exp_monotonicity.py` | 计算排序单调性  $M\left(R\right)$ ，验证算法在细分节点差异上的表现。 |

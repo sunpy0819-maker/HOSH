@@ -93,16 +93,16 @@ HOSH_Project/
 
 **Scripts:**
 
-| 文件 (File) | 描述 (Description) |
-| --- | --- |
-| `exp_sir_influence.py` | 评估不同种子比例$p$(2.5%-25%)下的稳态感染规模$F(t_c)$。 |
-| `exp_temporal_sir.py` | 追踪选取 Top-10 节点作为初始种子时的时序传播演化轨迹。 |
+| 文件 (File) | 描述 (Description)                                           |
+| --- |------------------------------------------------------------|
+| `exp_sir_influence.py` | 评估不同种子比例$p$(2.5%-25%)下的稳态感染规模 $F(t_c)$。                    |
+| `exp_temporal_sir.py` | 追踪选取 Top-10 节点作为初始种子时的时序传播演化轨迹。                            |
 | `exp_improvement_rate.py` | 在不同感染概率  $\beta /\beta _{th}$  下分析 HOSH 相对基准算法的改进率（气泡热力图）。 |
-| `exp_monotonicity.py` | 计算排序单调性  $M\left(R\right)$ ，验证算法在细分节点差异上的表现。 |
-| `exp_ranking_frequency.py` | 统计每个排名位置对应的节点数量，揭示排名并列问题。 |
-| `exp_spreader_separation.py` | 计算种子节点的平均最短路径长度  $L_{s}$ ，反映传播者的空间覆盖能力。 |
-| `exp_topology_visualization.py` | 将网络中 Top-50 的节点进行高亮渲染，展示独立子图对比。 |
-| `exp_synthetic_networks.py` | 针对 BA, WS, ER 等合成网络（1k-20k规模）验证计算时间随节点数的增长趋势。 |
+| `exp_monotonicity.py` | 计算排序单调性  $M\left(R\right)$ ，验证算法在细分节点差异上的表现。               |
+| `exp_ranking_frequency.py` | 统计每个排名位置对应的节点数量，揭示排名并列问题。                                  |
+| `exp_spreader_separation.py` | 计算种子节点的平均最短路径长度  $L_{s}$ ，反映传播者的空间覆盖能力。                    |
+| `exp_topology_visualization.py` | 将网络中 Top-50 的节点进行高亮渲染，展示独立子图对比。                            |
+| `exp_synthetic_networks.py` | 针对 BA, WS, ER 等合成网络（1k-20k规模）验证计算时间随节点数的增长趋势。              |
 
 * * *
 
